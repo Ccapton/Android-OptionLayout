@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chen.capton.optionlayout.OptionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:OptionLayout="http://schemas.android.com/apk/res-auto"
+    android:layout_height="70dp"
+    android:layout_width="match_parent"
+    OptionLayout:leftOptionText="置顶"
+    OptionLayout:leftTextSize="14sp"
+    OptionLayout:leftTextColor="@android:color/white"
+    OptionLayout:rightOptionText="删除"
+    OptionLayout:rightTextSize="14sp"
+    OptionLayout:rightTextColor="@android:color/white"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+          <!--把你自己的item布局include进来-->
+        <include layout="@layout/left_item"  />
+
+    </LinearLayout>
+
+</chen.capton.optionlayout.OptionLayout>

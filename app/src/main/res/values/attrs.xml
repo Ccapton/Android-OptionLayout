@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OptionLayout">
+    <attr name="leftOptionText" format="string|reference"/>
+    <attr name="leftTextSize" format="dimension|reference"/>
+    <attr name="leftTextColor" format="color|reference"/>
+
+    <attr name="rightOptionText" format="string|reference"/>
+    <attr name="rightTextSize" format="dimension|reference"/>
+    <attr name="rightTextColor" format="color|reference"/>
+    </declare-styleable>
+</resources>
