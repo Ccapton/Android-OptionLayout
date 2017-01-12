@@ -2,11 +2,11 @@
 > 关于我，欢迎关注  
   博客：ccapton(http://blog.csdn.net/ccapton) 微信：[Ccapton]()   
  
-###简介: 
+### 简介: 
 
 这是一个仿照QQ的自定义View，实现侧滑弹出选项按钮的效果。
 
-###示例:  
+### 示例:  
 
 在QQ中是这样的
 
@@ -18,7 +18,7 @@
 
 
 
-###特性 
+### 特性 
 
 左滑出现选项按钮，例如“置顶”,“删除”。可以改为自己想要的名称，功能也可自定义
 ###原理说明
@@ -28,7 +28,12 @@
 
 下载optionlayout这个目录下的所有内容，拷贝到你的项目中即可使用;也可以将整个optionlayout这个文件夹作为一个独立module，import进项目中。
 
-###使用方法
+### 公共方法
+
+setPosition(int position);//设置此ViewGroup(在ListView,GridView,RecyclerView...中)所在的位置
+setOptionClickListener（OptionClickListener listener）;//设置回调,调用此ViewGroup者实现此ViewGroup的OptionClickListener接口并调用该方法。
+
+### 使用方法
 
 在layout目录下新建一个xml布局文件，命名自定义(例如:demo中的option_laout.xml)，内容格式如下
 
