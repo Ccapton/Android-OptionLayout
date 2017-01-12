@@ -26,7 +26,7 @@
 
 ### 如何配置
 
-下载optionlayout这个目录下的所有内容，拷贝到你的项目中即可使用;也可以将整个optionlayou这个文件夹作为一个独立module，import进项目中。
+下载optionlayout这个目录下的所有内容，拷贝到你的项目中即可使用;也可以将整个optionlayout这个文件夹作为一个独立module，import进项目中。
 
 ###使用方法
 
