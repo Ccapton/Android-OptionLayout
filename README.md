@@ -93,7 +93,7 @@
                 viewHolder= (ViewHolder) convertView.getTag();
             }
 
-            ((OptionLayout)convertView).setOptionClickListener(this); //强转为我们的OptionLaout,为适配器回调事件，例如点击动事件，以实现我们的效果
+            ((OptionLayout)convertView).setOptionClickListener(this); //强转为我们的OptionLaout,为适配器回调事件，例如点击事件，以实现我们的效果
             ((OptionLayout)convertView).setPosition(position);       // 设置OptionLayout这个View在ListView中的位置。
             viewHolder.textView.setText(dataList.get(position));
 
