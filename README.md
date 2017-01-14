@@ -35,7 +35,7 @@ setOptionClickListener(OptionClickListener listener);//设置回调,调用此Vie
 
 ### 使用方法
 
-在layout目录下新建一个xml布局文件，命名自定义(例如:demo中的option_laout.xml)，内容格式如下
+1.在layout目录下新建一个xml布局文件，命名自定义(例如:demo中的option_laout.xml)，内容格式如下
 
 ``` xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -63,7 +63,7 @@ setOptionClickListener(OptionClickListener listener);//设置回调,调用此Vie
 
 </chen.capton.optionlayout.OptionLayout>
 ``` 
-在例如ListView中的BaseAdapter中的getView方法中使用
+2.在例如ListView中的BaseAdapter中的getView方法中使用
 
 (1)适配器实现接口以完成回调
 ``` code
