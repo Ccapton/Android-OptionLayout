@@ -45,8 +45,10 @@
 
 ### 公共方法
 ``` code
-setPosition(int position);//设置此ViewGroup(在ListView,GridView,RecyclerView...中)所在的位置
-setOptionClickListener(OptionClickListener listener);//设置回调,调用此ViewGroup者实现此ViewGroup的OptionClickListener接口并调用该方法。
+//设置此ViewGroup(在ListView,GridView,RecyclerView...中)所在的位置
+setPosition(int position);
+//设置回调,调用此ViewGroup者实现此ViewGroup的OptionClickListener接口并调用该方法。
+setOptionClickListener(OptionClickListener listener);
 ```
 ### 使用方法
 
