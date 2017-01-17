@@ -26,7 +26,22 @@
 
 ### 如何配置
 
-下载optionlayout这个目录下的所有内容，拷贝到你的项目中即可使用;也可以将整个optionlayout这个文件夹作为一个独立module，import进项目中。
+ build.gradle(Project)
+ ``` code
+ allprojects {
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+        }
+    }
+ ```
+ build.gradle(Module:app)
+ ``` code
+ dependencies {
+          compile 'com.github.Ccapton:OptionLayout:1.0'
+    }
+ ```
+ 
 
 ### 公共方法
 
