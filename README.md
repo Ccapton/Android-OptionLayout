@@ -44,10 +44,10 @@
  
 
 ### 公共方法
-
+``` code
 setPosition(int position);//设置此ViewGroup(在ListView,GridView,RecyclerView...中)所在的位置
 setOptionClickListener(OptionClickListener listener);//设置回调,调用此ViewGroup者实现此ViewGroup的OptionClickListener接口并调用该方法。
-
+```
 ### 使用方法
 
 1.在layout目录下新建一个xml布局文件，命名自定义(例如:demo中的option_laout.xml)，内容格式如下
